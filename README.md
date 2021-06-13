@@ -1,7 +1,8 @@
 # Module 17 Supervised Machine Learning
 ## Challenge: Credit Risk Analysis
 ### Background
-For this project, we have been asked to pick one dataset from the [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) and submit it to an ETL process.
+The assignment states that "Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we’ll need to employ different techniques to train and evaluate models with unbalanced classes." To solve this challenge, we are asked you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+For this project, we have been asked to use a dataset from from LendingClub.
 We will use technologies such as Pandas, Google Colab, Jupyter notebook, PostgreSQL, AWS to mine the dataset. By doing so, we intend to meet this challenge's requirements, namely: <br/>
 - extract the dataset,
 - transform the data, 
