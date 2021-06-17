@@ -30,24 +30,7 @@ There isn't a drastic changes as the accuracy score for this step is at 0.64.
 |low_risk|1.00|0.40|0.69|0.57|0.52|0.27|17104|
 |avg / total|0.99|0.40|0.69|0.56|0.52|0.27|17205|
 
-### Actions: Delivery 2
-|Review|Analysis Results|
-|---|-----|
-|data filtered by items with 20 or more votes|96370|
-|data filtered by helpful_votes >= 50%|1448|
-|data filtered by items with a Vine review|647|
-|data filtered by items with no Vine review|90768
-
-#### Results
-|Review|Analysis Results|
-|---|-----|
-|The total number of reviews|92216|
-|the number of 5-star reviews|647|
-|the number of 5-star no reviews|44104|
-|e percentage 5-star reviews|44.68232044198895|
-|e percentage 5-star no reviews|48.589811387273045|
-
 ### Summary
-The percentage difference between the reviews is about 4%. One may conclude that a positive bias favors the non-paid reviews.
+Using the Balanced Random Classifier yielded better results as the accuracy score for this model yielded a 87% accuracy percentage. The AdaBoost qualifier however offered an accuracy score of 62%.
 
  
